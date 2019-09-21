@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="10dp">
+
+        <Button
+            android:id="@+id/bottom_textview"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="TextView"
+            android:textAllCaps="false" />
+
+        <Button
+            android:id="@+id/bottom_botton"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Button"
+            android:textAllCaps="false" />
+
+        <Button
+            android:id="@+id/bottom_edittext"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="EditText"
+            android:textAllCaps="false" />
+
+        <Button
+            android:id="@+id/bottom_Rediobutton"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Rediobutton"
+            android:textAllCaps="false" />
+
+        <Button
+            android:id="@+id/bottom_CheckBox"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="CheckBox"
+            android:textAllCaps="false" />
+
+        <Button
+            android:id="@+id/bottom_ImageView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="ImageView"
+            android:textAllCaps="false" />
+
+        <Button
+            android:id="@+id/bottom_ListView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="ListView"
+            android:textAllCaps="false" />
+
+        <Button
+            android:id="@+id/bottom_ListView2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="ListView2"
+            android:textAllCaps="false" />
+
+        <Button
+            android:id="@+id/bottom_GridView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="GridView"
+            android:textAllCaps="false" />
+        <Button
+            android:id="@+id/bottom_RecycleView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="RecycleView"
+            android:textAllCaps="false" />
+        <Button
+            android:id="@+id/bottom_WebViewView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="WebViewView(还有未知bug)"
+            android:textAllCaps="false" />
+        <Button
+            android:id="@+id/bottom_Toast"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Toast"
+            android:textAllCaps="false" />
+        <Button
+            android:id="@+id/bottom_Dialog"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Dialog"
+            android:textAllCaps="false" />
+        <Button
+            android:id="@+id/bottom_Progress"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Progress"
+            android:textAllCaps="false" />
+        <Button
+            android:id="@+id/bottom_CustomDialog"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="CustomDialog"
+            android:textAllCaps="false" />
+        <Button
+            android:id="@+id/bottom_PopupWindowActivity"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="PopupWindowActivity(还有未知bug)"
+            android:textAllCaps="false" />
+
+
+    </LinearLayout>
+
+
+</ScrollView>
