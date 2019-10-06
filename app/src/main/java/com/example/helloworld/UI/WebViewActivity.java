@@ -1,4 +1,4 @@
-package com.example.helloworld;
+package com.example.helloworld.UI;
 
 import androidx.appcompat.app.AppCompatActivity;
 
@@ -10,6 +10,8 @@ import android.webkit.WebChromeClient;
 import android.webkit.WebResourceRequest;
 import android.webkit.WebView;
 import android.webkit.WebViewClient;
+
+import com.example.helloworld.R;
 
 public class WebViewActivity extends AppCompatActivity {
 

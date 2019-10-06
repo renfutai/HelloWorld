@@ -1,4 +1,4 @@
-package com.example.helloworld;
+package com.example.helloworld.UI;
 
 import androidx.appcompat.app.AppCompatActivity;
 
@@ -7,6 +7,7 @@ import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
 
+import com.example.helloworld.R;
 import com.example.helloworld.gidView.GridViewActivity;
 import com.example.helloworld.listview2.ListView2Activity;
 

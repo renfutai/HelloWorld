@@ -11,7 +11,10 @@
         android:supportsRtl="true"
         android:theme="@style/AppTheme"
         tools:ignore="GoogleAppIndexingWarning">
-        <activity android:name=".broadcast.BroadActivity1"></activity>
+        <activity android:name=".NetWork.JsonActivity"></activity>
+        <activity android:name=".NetWork.OKHttpActivity" />
+        <activity android:name=".NetWork.NetWorkActivity" />
+        <activity android:name=".broadcast.BroadActivity1" />
         <activity android:name=".broadcast.BroadActivity" />
         <activity android:name=".datastorage.SharedPreferencesActivity" />
         <activity android:name=".datastorage.FileActivity" />
@@ -27,9 +30,9 @@
         <activity
             android:name=".Jump.AActivity"
             android:label="A" />
-        <activity android:name=".PopupWindowActivity" />
-        <activity android:name=".CustomDialogActivity" />
-        <activity android:name=".ProgressActivity" />
+        <activity android:name=".UI.PopupWindowActivity" />
+        <activity android:name=".UI.CustomDialogActivity" />
+        <activity android:name=".UI.ProgressActivity" />
         <activity
             android:name=".MainActivity"
             android:screenOrientation="behind">
@@ -39,27 +42,27 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".DialogActivity" />
-        <activity android:name=".ToastActivity" />
-        <activity android:name=".WebViewActivity" />
+        <activity android:name=".UI.DialogActivity" />
+        <activity android:name=".UI.ToastActivity" />
+        <activity android:name=".UI.WebViewActivity" />
         <activity android:name=".recyclerView.PuRecyclerViewActivity" />
         <activity android:name=".recyclerView.GridRecyclerViewActivity" />
         <activity android:name=".recyclerView.HorRecyclerViewActivity" />
         <activity android:name=".recyclerView.LinearRecyclerViewActivity" />
         <activity android:name=".recyclerView.RecyclerViewActivity" />
         <activity android:name=".listview2.ListView2Activity" />
-        <activity android:name=".ImageViewActivity" />
+        <activity android:name=".UI.ImageViewActivity" />
         <activity android:name=".listview.ListViewActivity" />
         <activity android:name=".gidView.GridViewActivity" />
-        <activity android:name=".CheckBoxActivity" />
-        <activity android:name=".RedioButtonActivity" />
-        <activity android:name=".EditTextActivity" />
-        <activity android:name=".ActivityTextView" />
-        <activity android:name=".ActivityButton" />
-        <activity android:name=".UIActivity" />
+        <activity android:name=".UI.CheckBoxActivity" />
+        <activity android:name=".UI.RedioButtonActivity" />
+        <activity android:name=".UI.EditTextActivity" />
+        <activity android:name=".UI.ActivityTextView" />
+        <activity android:name=".UI.ActivityButton" />
+        <activity android:name=".UI.UIActivity" />
     </application>
-    <uses-permission android:name="android.permission.INTERNET" />
-
     <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+
+    <uses-permission android:name="android.permission.INTERNET" />
 
 </manifest>
